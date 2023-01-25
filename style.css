@@ -2,6 +2,7 @@
 
     padding: 0;
     margin: 0;
+    
 }
 
 #container-fluid {
@@ -9,6 +10,9 @@
     justify-content: space-between;
 }
 .container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
     background-repeat: no-repeat;
     background: url("assets/Header\ bg.svg");
     background-color: #fff;
@@ -16,4 +20,53 @@
     background-size:100%;
     min-height: 42rem;
     width: 100%;
+    padding-left: 10%;
+    padding-top: 14%;
+}
+
+.social-handle ul  {
+    display: flex;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+  .heading-title {
+    color: #091E42;
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+p {
+
+    width: 920px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    color: #344563;
+}
+
+.lets-connect{
+    color: #7F8CFF;
+}
+
+.buttons {
+    position: relative;
+    right: 33px;
+}
+
+.card-section {
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    margin-top: 49px;
+    background-color: #f4f4f4; 
+}
+
+.contact-me-form{
+    font-color: #0000ff;
+    background-color: #0000ff;
+
 }
