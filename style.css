@@ -1,0 +1,161 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    
+}
+
+#container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-repeat: no-repeat;
+    background: url("assets/Header\ bg.svg");
+    background-color: #fff;
+    background-position:center center;
+    background-size:100%;
+    min-height: 42rem;
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 14%;
+}
+
+.social-handle ul  {
+    display: flex;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+  .heading-title {
+    color: #091E42;
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+p {
+
+    width: 920px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    color: #344563;
+}
+
+.lets-connect{
+    color: #7F8CFF;
+}
+
+.buttons {
+    position: relative;
+    right: 33px;
+}
+
+.card-section {
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    margin-top: 49px;
+    background-color: #f4f4f4; 
+}
+
+.contact-me-form{
+    font-color: #0000ff;
+    background-color: #0000ff;
+}
+
+
+  
+  .about-wrap h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+    margin-bottom: 20px;
+    line-height: 52px;
+  }
+  
+    .about-wrap p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    }
+
+
+   
+
+.first-par{
+    width:40%
+ }
+
+.arrows span {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 5px;
+    color: #000;
+    left: 0;
+    bottom: 5px;
+}
+
+.About-section {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 24px;
+    border-radius: 0;
+
+  }
+
+  .about-wrap {
+    padding: 40px 40px;
+    position: relative;
+    left: 100px;
+    
+  }
+
+  .skill-sets {
+    /* flex-basis: 70%; */
+    margin-left: 80px;
+    position: relative;
+    right: 288px;
+    padding-top: 25px;
+  }
+
+  .arrows {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .language-set {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+  }
+
+  .language-set li img {
+    padding-bottom: 25px;
+    margin-top: -15px;
+  }
+
+  .language-set span {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -25px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+
+  }
+
+  .language-set .two {
+    order: 1;
+
+  }
