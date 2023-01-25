@@ -116,6 +116,8 @@ p {
 
   .about-wrap {
     padding: 40px 40px;
+    position: relative;
+    left: 100px;
     
   }
 
@@ -123,7 +125,8 @@ p {
     /* flex-basis: 70%; */
     margin-left: 80px;
     position: relative;
-    right: 20px;
+    right: 288px;
+    padding-top: 25px;
   }
 
   .arrows {
@@ -134,7 +137,7 @@ p {
   .language-set {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 38px;
   }
 
   .language-set li img {
@@ -146,6 +149,10 @@ p {
     margin-top: 30px;
     text-align: center;
     margin-left: -25px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+
   }
 
   .language-set .two {
