@@ -1,4 +1,5 @@
 * {
+
     padding: 0;
     margin: 0;
 }
@@ -7,8 +8,12 @@
     display: flex;
     justify-content: space-between;
 }
-
-/* .navbar-collapse {
-    float: right;
-    left: 60%;
-} */
+.container{
+    background-repeat: no-repeat;
+    background: url("assets/Header\ bg.svg");
+    background-color: #fff;
+    background-position:center center;
+    background-size:100%;
+    min-height: 42rem;
+    width: 100%;
+}

@@ -1,40 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
-</head>
-<body>
-
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid" id="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav" >
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
-
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white p-3">
+        <div class="container-fluid" id="container-fluid">
+          <a class="navbar-brand text-primary text-opacity-100" href="#"
+            ><img src="assets/My Logo.svg"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="greet">
+        <hgroup>
+          <h1 class="heading-title">I'm Salma</h1>
+          <h1 class="heading-title">Glad to see you!</h1>
+        </hgroup>
+        <p class="my-intro">
+          Hello I'm A software developer! I can help you build a product,feature
+          or website. Look through some of my experience ! If you have a project
+          you need coded.Don't hesitate to contact me.
+        </p>
+      </div>
+      <div class="social">
+        <h3 class="lets-connect">Let's connect</h3>
+        <div class="social-handle">
+          <ul class="buttons">
+            <li>
+              <a href=""
+                ><img
+                  src="./assets/githubsocial.icons.svg"
+                  class="contact-btn"
+                  alt="Github"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./assets/twittersocial.icons.svg"
+                  class="contact-btn"
+                  alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="./assets/mediumsocial.icons.svg"
+                  class="contact-btn"
+                  alt="Medium"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./assets/angellistsocial.icons.svg" class="contact-btn" alt=""
+              /></a>
+            </li>
+            <li><a href=""><img src="assets/Linkedin iconsocial.icons.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="contact-me-form"></footer>
+  </body>
 </html>
