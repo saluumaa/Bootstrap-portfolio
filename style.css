@@ -68,5 +68,87 @@ p {
 .contact-me-form{
     font-color: #0000ff;
     background-color: #0000ff;
-
 }
+
+
+  
+  .about-wrap h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+    margin-bottom: 20px;
+    line-height: 52px;
+  }
+  
+    .about-wrap p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    }
+
+
+   
+
+.first-par{
+    width:40%
+ }
+
+.arrows span {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 5px;
+    color: #000;
+    left: 0;
+    bottom: 5px;
+}
+
+.About-section {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 24px;
+    border-radius: 0;
+
+  }
+
+  .about-wrap {
+    padding: 40px 40px;
+    
+  }
+
+  .skill-sets {
+    /* flex-basis: 70%; */
+    margin-left: 80px;
+    position: relative;
+    right: 20px;
+  }
+
+  .arrows {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .language-set {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .language-set li img {
+    padding-bottom: 25px;
+    margin-top: -15px;
+  }
+
+  .language-set span {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -25px;
+  }
+
+  .language-set .two {
+    order: 1;
+
+  }

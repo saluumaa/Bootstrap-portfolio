@@ -22,8 +22,8 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-white p-3">
         <div class="container-fluid" id="container-fluid">
-          <a class="navbar-brand text-primary text-opacity-100" href="#"
-            ><img src="assets/My Logo.svg"
+          <a class="navbar-brand text-primary text-opacity-100" href="#" title="nav">
+            <img src="assets/My Logo.svg" alt=""
           /></a>
           <button
             class="navbar-toggler"
@@ -108,17 +108,19 @@
       </div>
     </main>
     <section class="card-section">
-      <div class="card mb-3 mx-5" style="max-width: 900px; height: 250px;">
-        <div class="row g-0">
-          <div class="col-md-4" >
-            <img src="./assets/Snapshoot Portfolio.svg" class="img-fluid "  alt="">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"> A daily selection of private and personalised<br>
-                reads ; no accounts or sign-ups required.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
             </div>
           </div>
         </div>
@@ -134,7 +136,52 @@
               <h5 class="card-title">Card title</h5>
               <p class="card-text"> A daily selection of private and personalised<br>
                 reads ; no accounts or sign-ups required.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <span class="badge rounded-pill bg-primary">Html</span>
+                <span class="badge rounded-pill bg-primary">Css</span>
+                <span class="badge rounded-pill bg-primary">Javascript</span>
+                <div class="btn">
+                <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block " value="Get in touch" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 mx-5" style="max-width: 900px; height: 250px;">
+        <div class="row g-0">
+          <div class="col-md-4" >
+            <img src="./assets/Snapshoot Portfolio.svg" class="img-fluid "  alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text"> A daily selection of private and personalised<br>
+                reads ; no accounts or sign-ups required.</p>
+                <span class="badge rounded-pill bg-primary">Html</span>
+                <span class="badge rounded-pill bg-primary">Css</span>
+                <span class="badge rounded-pill bg-primary">Javascript</span>
+                <div class="btn">
+                <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block " value="Get in touch" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 mx-5" style="max-width: 900px; height: 250px;">
+        <div class="row g-0">
+          <div class="col-md-4" >
+            <img src="./assets/Snapshoot Portfolio.svg" class="img-fluid "  alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text"> A daily selection of private and personalised<br>
+                reads ; no accounts or sign-ups required.</p>
+                <span class="badge rounded-pill bg-primary">Html</span>
+                <span class="badge rounded-pill bg-primary">Css</span>
+                <span class="badge rounded-pill bg-primary">Javascript</span>
+                <div class="btn">
+                <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block " value="Get in touch" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                </div>
             </div>
           </div>
         </div>
@@ -150,32 +197,112 @@
               <h5 class="card-title">Card title</h5>
               <p class="card-text"> A daily selection of private and personalised<br>
                 reads ; no accounts or sign-ups required.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <span class="badge rounded-pill bg-primary">Html</span>
+                <span class="badge rounded-pill bg-primary">Css</span>
+                <span class="badge rounded-pill bg-primary">Javascript</span>
+                <div class="btn">
+                <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block " value="Get in touch" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="card mb-3 mx-5" style="max-width: 900px; height: 250px;">
-        <div class="row g-0">
-          <div class="col-md-4" >
-            <img src="./assets/Snapshoot Portfolio.svg" class="img-fluid "  alt="">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"> A daily selection of private and personalised<br>
-                reads ; no accounts or sign-ups required.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </section>
 
-    <footer class="contact-me-form">
-      
-        <div class="row justify-content-center ">
+    <section class="About-section">
+      <div class="about-wrap">
+       <!-- <article class="about-side lef"> -->
+       <h2>About <br> MySelf</h2>
+       <p class="first-par">Hello I'm a software developer!
+            I can help you build a product , 
+            feature or website Look through some 
+            of my work and experience! If you like 
+            what you see and have a project you need coded,
+            don't hestiate to contact me.</p>
+           <p class="link-text about"><a href="#">LETT'S CONNECT</a></p>
+   
+           <div class="social-handle">
+            <ul class="buttons">
+              <li>
+                <a href=""
+                  ><img
+                    src="./assets/githubsocial.icons.svg"
+                    class="contact-btn"
+                    alt="Github"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./assets/twittersocial.icons.svg"
+                    class="contact-btn"
+                    alt="Twitter"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./assets/mediumsocial.icons.svg"
+                    class="contact-btn"
+                    alt="Medium"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./assets/angellistsocial.icons.svg" class="contact-btn" alt=""
+                /></a>
+              </li>
+              <li><a href=""><img src="assets/Linkedin iconsocial.icons.svg" alt=""></a></li>
+            </ul>
+          </div>
+     
+   
+       <button type="button" class="btn">Get my resume</button>
+       </div>
+   
+       <div class="skill-sets">
+           <ul>
+               <li>
+                   <div class="arrows">
+                       Languages
+                       <i class="fa-solid fa-chevron-down"></i>
+                   </div>
+                   <ul class="language-set">
+                       <li class="img-lang one">
+                           <img src="assets/html.png" alt="Html" >
+                           <span>Javascript</span>
+                       </li>
+                       <li class="img-lang two">
+                           <img src="assets/css.png" alt="css">
+                           <span>Css</span>
+                       </li>
+   
+                       <li class="img-lang three">
+                           <img src="assets/Ellipse 1.png" alt="Html" >
+                           <span>Html</span>
+                       </li>
+                   </ul>
+               </li>
+                       <li> 
+                           <div class="arrows">
+                           FrameWorks
+                           <i class="fa-solid fa-chevron-right"></i>
+                           </div>
+                           <span><hr></span>
+                       </li>
+                       <li> 
+                       <div class="arrows">
+                           Skills
+                           <i class="fa-solid fa-chevron-right"></i> 
+                       </div>
+                       <span><hr></span>
+                       </li>   
+                   </ul>
+           </div>
+   </section>
+
+    <footer class="contact-me-form"> 
+        <div class="row justify-content-center p-3">
           <div class="col-md-4 mt-5  rounded">
             <h1 class="text-center font-weight-bold text-white">Contact Us</h1>
             <hr class="bg-light">
@@ -193,14 +320,12 @@
                 </div>
                 <input type="email" name="email" class="form-control mb-3" placeholder="Enter your email" required>
               </div>
-               
-               
               <div class="form-group input-group">
                 <div class="input-group-prepend">
                 </div>
                 <textarea name="msg" id="msg" class="form-control mb-3" placeholder="Write your message" cols="30" rows="4" required></textarea>
               </div>
-              <div class="form-group text-center">
+              <div class="form-group text-center ">
                 <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block " value="Get in touch">
               </div>
             </form>
